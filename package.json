@@ -1,0 +1,17 @@
+{
+  "author": "Justin Wark <justinwark@gmail.com>",
+  "name": "chook-slowest-test-reporter",
+  "description": "Console reporter of slowest tests for Chook - the Headless, framework-agnostic unit test runner",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "lib/index",
+  "engines": {
+    "node": "~0.6.11"
+  },  
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}

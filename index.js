@@ -1,4 +1,7 @@
-// This can be used in a 'configure' block, e.g. chook.use(chook-slowest-test-reporter.reporter(10));
+// This can be used in a 'configure' block, e.g. 
+// chook_slowest_test_reporter = require('chook-slowest-test-reporter');
+// chook.use(chook_slowest_test_reporter.summary());
+chook.use(chook-slowest-test-reporter.reporter(10));
 exports.reporter = function(numberOfTests) { 
 	return {
 		reporter: function(e) {

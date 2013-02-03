@@ -1,13 +1,26 @@
 {
-  "author": "Justin Wark <justinwark@gmail.com>",
   "name": "chook-slowest-test-reporter",
   "description": "Console reporter of slowest tests for Chook - the Headless, framework-agnostic unit test runner",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jwark/chook-slowest-test-reporter",
+  "author": {
+    "name": "Justin Wark",
+    "url": "justinwark.blogspot.com"
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/jwark/chook-slowest-test-reporter.git"
   },
-  "main": "lib/index",
+  "bugs": {
+    "url": "https://github.com/jwark/chook-slowest-test-reporter/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://jwark.mit-license.org"
+    }
+  ],
+  "main": "index",
   "engines": {
     "node": "~0.8"
   },  
